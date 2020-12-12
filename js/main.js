@@ -1,0 +1,4 @@
+
+
+    var mixer = mixitup('.container');
+
