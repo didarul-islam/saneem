@@ -10,20 +10,21 @@
 	<link rel="stylesheet" href="./grid/grid.css">
     <link rel="stylesheet" href="./css/all.css">
     <link rel="stylesheet" href="./css/animated.css">
+    <link rel="stylesheet" href="./css/responsive.css">
     <link rel="stylesheet" href="./css/style.css">
 </head>
 
 
 <body>
-  <header>
-      <nav>
+  <header id="home">
+      <nav id="main-nav">
           <div class="row">
               <div class="logo">
                 <a href="#">Md.Didarul  <span>Islam</span></a>
               </div>
             
               <ul class="main-nav">
-                  <li class="active"><a href="#" >Home</a></li>
+                  <li class="active"><a href="#home" >Home</a></li>
                   <li><a href="#service">Service</a></li>
                   <li><a href="#team">Team</a></li>
                   <li><a href="#skill">skills</a></li>
@@ -31,20 +32,35 @@
                   <li><a href="#testimonial">testimonial</a></li>
                   <li><a href="#contact">contact</a></li>
               </ul>
+              <div class="mobile-menu">
+                <span onclick="openNav()">&#9776;</span>
+                <div class="overlay" id="myNav">
+                <a href="javascript:void()" onclick="closeNav()" class="closeBtn">&times;</a>
+                <div class="overlay-content">
+                  <a onclick="closeNav()" href="#home" >Home</a>
+                  <a onclick="closeNav()" href="#service">Service</a>
+                  <a onclick="closeNav()" href="#team">Team</a>
+                  <a onclick="closeNav()" href="#skill">skills</a>
+                  <a onclick="closeNav()" href="#protfolio">protfolio</a>
+                  <a onclick="closeNav()" href="#testimonial">testimonial</a>
+                  <a onclick="closeNav()" href="#contact">contact</a>
+                </div>
+              </div>
+              </div>
           </div>
       </nav>
       <div class="row">
           <div class="hero-text-box">
                 <h1>Hi there! We are the new kids on the block and we build 
                 awesome wibsites and mobile apps</h1>
-                <a href="#" class="btn btn-hero">Work with us!</a>
+                <a href="#contact" class="btn btn-hero">Work with us!</a>
           </div>
           
       </div>
 
   </header>
 
-  <section class="services-section" id="service">
+  <section class="services-section " id="service">
       <div class="row">
           <h2>SERVICES WE PROVIDE</h2>
           <P class="little-descrption">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Animi 

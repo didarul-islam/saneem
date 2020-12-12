@@ -1,0 +1,119 @@
+
+@media only screen and (max-width:1200px){
+    .mobile-menu span{
+        display: none !important;
+    }
+    /* .main-nav{
+        display: none !important;
+    } */
+}
+
+@media only screen and (max-width:960px){
+
+    header{
+        height: 50vh !important;
+        background-position:center top !important;
+    }
+    .main-nav{
+        display: none !important;
+    }
+    .mobile-menu span{
+        display: block !important;
+    }
+    html{
+        font-size: 57.5%;
+    }
+    .clients-photo{
+        width: 100% !important;
+        text-align: center !important;
+        float: none !important;
+        margin-left: 0 !important;
+        
+    }
+    .clients-photo img{
+        width: 8rem !important;
+        height: 8rem !important;
+    }
+    .client-reveiw{
+        width: 100% !important;
+        text-align: center !important;
+        float: none !important;
+        
+        
+    }
+    .client-reveiw p{
+      font-size: 1.8rem;
+        
+        
+    }
+    .testimonial-section{
+        text-align: center !important;
+    }
+    .span_1_of_4{
+        width: 49.2% !important;
+    }
+    .span_1_of_4:nth-child(3){
+        margin-left: 0 !important;
+    }
+}
+
+@media only screen and (max-width:768px){
+
+    .little-descrption{
+        width: 100% !important;
+    }
+    h1{
+        font-size: 3.5rem !important;
+        
+    }
+    h2{
+        font-size: 3rem !important;
+        line-height: 3rem !important;
+    }
+    h3{
+        font-size: 2rem !important;
+    }
+    h4{
+        font-size: 1.2rem !important;
+    }
+    .span_1_of_4{
+        width: 100% !important;
+    }
+
+    .hero-text-box{
+        width: 100% !important;
+        margin-top: 4rem !important;
+    }
+    .hero-text-box h1{
+        font-size: 2rem !important;
+        
+
+    }
+    .btn-hero{
+        margin-bottom: 1rem !important;
+    }
+    .btn:link,
+    .btn:visited,
+    .btn{
+    margin-top: .5rem !important;
+}
+.little-descrption{
+    margin-left: 0 !important;
+    width: 100% !important;
+    padding:  0 1rem !important;
+}
+.p{
+    padding:  0 1rem !important;
+}
+.protfolio-filter button{
+    width: 100% !important;
+}
+.client-reveiw p{
+    padding:  0 1rem !important;
+}
+.footer-section ul li{
+    margin: 0 !important;
+}
+
+
+}
